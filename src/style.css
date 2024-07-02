@@ -1,0 +1,27 @@
+#editor {
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: auto;
+    background: #c0c0c0;
+}
+
+.square {
+    height: auto;
+    width: auto; /* Ajusta el tamaño de los cuadros para que sean cuadrados */
+}
+
+.square:focus {
+    outline: none;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+.contenedor {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
